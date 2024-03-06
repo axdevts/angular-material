@@ -1,0 +1,18 @@
+<!-- <div *ngIf='appStatus'>{{name}} TutorialPoint</div>
+<div *ngFor='let lst of appList'>
+    <ul>
+        <li>{{lst.ID}}</li>
+        <img [src] = 'lst.url'>
+    </ul>
+</div> -->
+<div>
+    The name of this tutorial is {{TutorialPoint}}<br>
+    The first Topic is {{appList[0]| lowercase}}<br>
+    The second Topic is {{appList[1]| lowercase}}<br>
+    The third Topic is {{appList[2] | lowercase}}<br>
+    <p>Multiplier: {{2 | Multiplier: 10}}</p>
+    <!-- <input [value]="name" (input)="name=$event.target.value" />
+    {{name}} -->
+    <!-- {{Status}}
+    <button (click)="clicked()">Click</button> -->
+</div>
